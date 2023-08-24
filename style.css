@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #191980;
+    line-height: 1.5;
+    padding: 0 30px;
+}
+a{
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white ;
+}
+ul{
+    padding: 30px;
+}
+li{
+    display: inline;
+    padding: 30px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.home{
+    background-color: #191980;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 68vh;
+}
+.home img{
+  width: 30%;
+  margin-bottom: 20px;
+ 
+   
+}
+.contant{
+    padding-bottom: 60px;
+}
+.contant h1{
+   color: white;
+   font-size: 50px;
+   padding-left: 40px;
+}
+.contant p{
+    color: white;
+    font-size: 20px;
+    padding: 30px 50px;
+}
+.btn{
+    margin: 50px;
+    border: 2px solid white;
+    line-height: 3;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+.feature{
+    text-align: center;
+    font-size: 60px;
+    color: #191980;
+    font-family: sans-serif !important;
+    margin: 80px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 10px;
+    color: #191980;
+
+}
+.container i{
+    font-size: 70px;
+}
+.box1{
+    background-color: palevioletred;
+    margin: 20px;
+    padding: 50px;
+   
+}
+.box2{
+    background-color: yellow;
+    margin: 20px;
+    padding: 50px;
+}
+.box3{
+    background-color: aqua;
+    margin: 20px;
+    padding: 50px;
+}
+.box4{
+    background-color: gainsboro;
+    margin: 20px;
+    padding: 50px;
+}
+
+.box-contant a{
+    color: #191980;
+    font-size: 20px;
+    padding: 0;
+}
+.box-contant h2{
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.box-contant p{
+    padding: 10px 0;
+}
+.last-contant{
+    background-color: #191980;
+    height: 300px;
+    padding: 80px 300px;
+}
+.last-contant h2{
+    font-size: 40px;
+    color: white;
+}
+.last-contant h3{
+    font-size: 40px;
+    color: yellow;
+}
